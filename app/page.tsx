@@ -139,9 +139,9 @@ README.md`}
                 </pre>
               </div>
               <div className="rounded-lg bg-card p-4">
-                <h3 className="mb-2 text-lg font-medium text-card-foreground">Quick Install - Windows (PowerShell Admin)</h3>
+                <h3 className="mb-2 text-lg font-medium text-card-foreground">Quick Install - Windows (Command Prompt)</h3>
                 <pre className="overflow-x-auto text-sm bg-muted p-2 rounded">
-                  <code>{`Invoke-WebRequest -Uri "https://raw.githubusercontent.com/meyanksingh/go-sova/master/scripts/install.sh" -OutFile "install.sh"; bash install.sh`}</code>
+                  <code>{`curl -fsSL -o install.bat https://raw.githubusercontent.com/go-sova/sova-cli/master/scripts/install.bat && install.bat`}</code>
                 </pre>
               </div>
               <div className="rounded-lg bg-card p-4">
